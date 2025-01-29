@@ -19,6 +19,14 @@ public class P1VariableCreation {
         System.out.println("Byte : "+b);
         System.out.println("character with integer value : "+(ch++));
         System.out.println("character with integer value : "+(ch));
+        byte rangeByte=-128;
+        int intMax=214783647;
+        int intMin=214783647;
+
+        //primitive fixed size
+        //nonPrimitive Size define by user
+
+
 
 
     }
