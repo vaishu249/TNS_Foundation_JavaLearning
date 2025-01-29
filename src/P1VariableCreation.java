@@ -8,6 +8,7 @@ public class P1VariableCreation {
         double d=1211111d;
         boolean value=true;
         byte b='a';
+        char ch=65;
         System.out.println("integer:"+a);
         System.out.println("Long:"+l);
         System.out.println("string : "+name);
@@ -16,6 +17,7 @@ public class P1VariableCreation {
         System.out.println("Boolean : "+value);
         System.out.println("Character : "+c);
         System.out.println("Byte : "+b);
+        System.out.println("character with integer value : "+ch);
 
 
     }
