@@ -17,7 +17,8 @@ public class P1VariableCreation {
         System.out.println("Boolean : "+value);
         System.out.println("Character : "+c);
         System.out.println("Byte : "+b);
-        System.out.println("character with integer value : "+ch);
+        System.out.println("character with integer value : "+(ch++));
+        System.out.println("character with integer value : "+(ch));
 
 
     }
