@@ -25,9 +25,5 @@ public class P1VariableCreation {
 
         //primitive fixed size
         //nonPrimitive Size define by user
-
-
-
-
     }
 }
