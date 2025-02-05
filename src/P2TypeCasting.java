@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P2TypeCasting {
     public static void main(String[] args) {
         //widening or Implicit type casting
