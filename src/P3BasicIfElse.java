@@ -1,6 +1,4 @@
-package P3ControlStatement;
-
-public class BasicIfElse {
+public class P3BasicIfElse {
     public static void main(String[] args) {
         int x=5;
         int y=10;
