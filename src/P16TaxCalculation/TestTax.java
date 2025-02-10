@@ -27,5 +27,8 @@ public class TestTax {
         pc.calculateTax(p);
 
         System.out.println(p.toString());
+        //next- not include widespaces
+        //nextLine- it read whole line with widespaces
+
     }
 }
