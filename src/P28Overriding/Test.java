@@ -13,6 +13,7 @@ public class Test {
         r=new SBIChildClass();
         System.out.println(r.getRateOfIntrest());
 
+
         r=new ICIC_Child();
         System.out.println(r.getRateOfIntrest());
     }
