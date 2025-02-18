@@ -1,4 +1,4 @@
-public class P1VariableCreation {
+public class P1VariableCreationAndDataType {
     public static void main(String[] args) {
         int a=20;
         long l=12L;
