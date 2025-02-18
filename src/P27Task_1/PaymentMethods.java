@@ -15,7 +15,7 @@ public class PaymentMethods {
             System.out.println("2.Net Banking");
             System.out.println("3.UPI (Unified Payments Interface)");
             System.out.println("4.Google Pay");
-            System.out.println("Enter Payment method : ");
+            System.out.print("Enter Payment method : ");
             int userChoice = input.nextInt();
             System.out.print("Enter the Amount You want To transfer :");
             int amount = input.nextInt();
@@ -62,6 +62,6 @@ public class PaymentMethods {
             }
             System.out.println("You wanted to pay again ...y/n");
             c = input.next();
-        } while (c != "n");
+        } while (c.equals("y"));
     }
 }
