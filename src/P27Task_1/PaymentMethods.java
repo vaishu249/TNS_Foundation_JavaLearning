@@ -7,7 +7,6 @@ public class PaymentMethods {
         //Payment Methods
         Scanner input = new Scanner(System.in);
         String c;
-
         // object of method Override class
         OverrideMethodOfPayment obj=new OverrideMethodOfPayment();
 
@@ -16,6 +15,7 @@ public class PaymentMethods {
             System.out.println("2.Net Banking");
             System.out.println("3.UPI (Unified Payments Interface)");
             System.out.println("4.Google Pay");
+            System.out.println("Enter Payment method : ");
             int userChoice = input.nextInt();
             System.out.print("Enter the Amount You want To transfer :");
             int amount = input.nextInt();
