@@ -1,6 +1,7 @@
 package P26Overloading;
 
-public class TestConstructor {
+public class
+TestConstructor {
     public static void main(String[] args) {
         System.out.println("Constructor Overloading ");
         ConstructorOverloading c=new ConstructorOverloading();
