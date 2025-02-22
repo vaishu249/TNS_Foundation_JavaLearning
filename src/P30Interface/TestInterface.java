@@ -7,5 +7,6 @@ public class TestInterface {
         System.out.println(s);
         s.withdraw(40000);
         System.out.println(s);
+        System.out.println(s);
     }
 }
