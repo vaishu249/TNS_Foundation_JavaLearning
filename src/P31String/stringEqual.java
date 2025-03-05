@@ -5,6 +5,5 @@ public class stringEqual {
         String s1="vai";
         String s2="vai";
         s1.compareTo(s2);
-
     }
 }
