@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1> Dice Game </h1>
+        <p id="winning-condition">First to reach <b>40 points</b> wins!</p>
+
+        <div id="name-inputs">
+            <h3>Enter Player Names</h3>
+            <input type="text" id="name1" placeholder="Player 1 Name">
+            <input type="text" id="name2" placeholder="Player 2 Name">
+            <input type="text" id="name3" placeholder="Player 3 Name">
+            <input type="text" id="name4" placeholder="Player 4 Name">
+            <button id="startGame">Start Game</button>
+        </div>
+
+        <div class="game-layout" style="display: none;" id="game-content">
+            <div class="mainSec">
+            <div class="dice-section">
+                <img src="images/dice1.png" id="dice" alt="Dice">
+                <button id="rollBtn">Roll Dice</button>
+                <p id="turn">Player 1's Turn</p>
+            </div>
+
+            <div class="players-section">
+                <div class="player">
+                    <img src="images/Player1.jpeg" alt="Player 1">
+                    <p id="playerName1">Player 1</p>
+                    <span class="score" id="score1">0</span>
+                    <div class="progress-bar"><div id="progress1"></div></div>
+                </div>
+                <div class="player">
+                    <img src="images/Player2.jpeg" alt="Player 2">
+                    <p id="playerName2">Player 2</p>
+                    <span class="score" id="score2">0</span>
+                    <div class="progress-bar"><div id="progress2"></div></div>
+                </div>
+                <div class="player">
+                    <img src="images/Player3.jpeg" alt="Player 3">
+                    <p id="playerName3">Player 3</p>
+                    <span class="score" id="score3">0</span>
+                    <div class="progress-bar"><div id="progress3"></div></div>
+                </div>
+                <div class="player">
+                    <img src="images/Player4.jpeg" alt="Player 4">
+                    <p id="playerName4">Player 4</p>
+                    <span class="score" id="score4">0</span>
+                    <div class="progress-bar"><div id="progress4"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="winner" class="winner-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

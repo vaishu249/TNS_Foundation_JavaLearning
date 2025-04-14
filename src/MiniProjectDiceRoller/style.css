@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(19deg, rgba(105, 37, 107, 0.71) 0%, rgb(197, 30, 102) 100%);
+    text-align: center;
+    color: white;
+}
+
+.game-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(5, 4, 4, 0.2);
+    width: 600px;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#winning-condition {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.game-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainSec{
+    display: flex;
+}
+
+.dice-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+
+.dice-section img {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    background: #dec71d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e8bb18;
+}
+
+#turn {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.players-section {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(106, 83, 192);
+    background: rgb(129, 120, 161);
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.progress-bar {
+    width: 60px;
+    height: 10px;
+    background: lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    height: 100%;
+    width: 0%;
+    background: rgb(72, 89, 196);
+    transition: width 0.3s ease-in-out;
+}
+
+@keyframes scrollDice {
+    0% { transform: translateY(0px); opacity: 0.2; }
+    25% { transform: translateY(-20px); opacity: 0.5; }
+    50% { transform: translateY(20px); opacity: 0.8; }
+    75% { transform: translateY(-10px); opacity: 1; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
+
+.rolling {
+    animation: scrollDice 1s linear;
+}
+
+.winner-message {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+#name-inputs input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 4vh;
+    padding: 5px;
+}
+
+
